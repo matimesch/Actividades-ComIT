@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "cover": "lotr_i.jpg",
+      "director": "Peter Jackson",
+      "topCast": ["Elijah Wood", "Ian McKellen", "Viggo Mortensen", "Orlando Bloom", "Christopher Lee", "Cate Blanchett", "Hugo Weaving"],
+      "IMDB": "https://www.imdb.com/title/tt0120737/"
+    },
+    {
+      "id": 2,
+      "title": "V for Vendetta",
+      "year": 2005,
+      "cover": "v-for-vendetta.jpg",
+      "director": "James McTeigue",
+      "topCast": ["Natalie Portman", "Hugo Weaving", "John Hurt"],
+      "IMDB": ""
+    },
+    {
+      "id": 3,
+      "title": "Joker",
+      "year": 2019,
+      "cover": "joker.jpg",
+      "director": "Todd Philips",
+      "topCast": ["Joanquin Phoenix", "Robert DeNiro", "Brett Cullen"],
+      "IMDB": "https://www.imdb.com/title/tt7286456"
+    },
+    {
+      "id": 4,
+      "title": "Titanic",
+      "year": 1997,
+      "cover": "titanic.jpg",
+      "director": "James Cameron",
+      "topCast": ["Leonardo DiCaprio, Kate Winslet, Billy Zane"],
+      "IMDB": "https://www.imdb.com/title/tt0120338/"  
+    },
+    {
+      "id": 5,
+      "title": "The Godfather",
+      "year": 1972,
+      "cover": "the_godfather.jpg",
+      "director": "Francis Ford Coppola",
+      "topCast": ["Marlon Brando, Al Pacino, James Caan"],
+      "IMDB": "https://www.imdb.com/title/tt0068646/"  
+    },
+    {
+      "id": 6,
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "cover": "pulp_fiction.jpg",
+      "director": "Quentin Tarantino",
+      "topCast": ["John Travolta, Uma Thurman, Samuel L. Jackson"],
+      "IMDB": "https://www.imdb.com/title/tt0110912/"  
+    },
+    {
+      "id": 7,
+      "title": "Reservoir Dogs",
+      "year": 1992,
+      "cover": "reservoir_dogs.jpg",
+      "director": "Quentin Tarantino",
+      "topCast": ["Harvey Keitel, Tim Roth, Michael Madsen"],
+      "IMDB": "https://www.imdb.com/title/tt0105236/?ref_=nm_knf_t1"  
+    },
+    {
+      "id": 8,
+      "title": "Back to the future",
+      "year": 1985,
+      "cover": "bttf.jpg",
+      "director": "Robert Zemeckis",
+      "topCast": ["Michael J. Fox, Christopher Lloyd, Lea Thompson"],
+      "IMDB": "https://www.imdb.com/title/tt0088763/"  
+    },
+    {
+      "id": 9,
+      "title": "Jurassic Park",
+      "year": 1993,
+      "cover": "jurassic.jpg",
+      "director": "Steven Spielberg",
+      "topCast": ["Sam Neill, Laura Dern, Jeff Goldblum"],
+      "IMDB": "https://www.imdb.com/title/tt0107290/"  
+    }
+  ]

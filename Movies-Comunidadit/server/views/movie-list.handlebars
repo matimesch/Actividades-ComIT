@@ -1,0 +1,46 @@
+{{!-- <ul>
+    {{#each movie}}
+    <li><img src="{{this.img}}" alt="imagen"><a href="/movies/{{this.id}}"></a>{{this.title}}({{this.year}})</a></li>
+</ul> --}}
+<style>
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+
+    a{
+        display: inline-block;
+    }
+
+    li{
+        list-style-type: none;
+    }
+    }
+</style>
+<button id="orderByNameAsc">Nombre</button>
+<button id="orderByYearAsc">Año</button>
+
+<script>
+    const orderByNameAsc = document.getElementById("orderByNameAsc")
+    const orderByYearAsc = document.getElementById("orderByYearAsc")
+    
+    addEventListener(onclick,)
+
+
+</script>
+
+<ul>
+    {{#each movies}}
+    <li>
+       <img class="img" src="/img/{{this.cover}}">
+       <a href="/movie-detail/{{this.id}}">
+            <p>
+                {{this.title}} ({{this.year}})
+            </p>
+          </a>
+        </div>
+    {{/each}}
+    </li>
+
+</ul>
+    

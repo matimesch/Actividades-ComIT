@@ -1,0 +1,14 @@
+{
+  "name": "express1",
+  "version": "1.0.0",
+  "description": "Primer ejemplo de web server con Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

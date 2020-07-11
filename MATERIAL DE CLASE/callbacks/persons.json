@@ -1,0 +1,72 @@
+[
+  {
+    "id": "andres-hoyos",
+    "name": "Andrés",
+    "surname": "Hoyos",
+    "profilePic": "person1.jpg",
+    "age": 26
+  },
+  {
+    "id": "joel-bengolea",
+    "name": "Joel",
+    "surname": "Bengolea",
+    "profilePic": "person2.webp",
+    "age": 25
+  },
+  {
+    "id": "micaela-pastor",
+    "name": "Micaela",
+    "surname": "Pastor",
+    "profilePic": "person3.jpg",
+    "age": 24
+  },
+  {
+    "id": "rocio-campos",
+    "name": "Rocío",
+    "surname": "Campos",
+    "profilePic": "person4.jpg",
+    "age": 25
+  },
+  {
+    "id": "blas-romero",
+    "name": "Blas",
+    "surname": "Romero",
+    "profilePic": "person82.jpg",
+    "age": 26
+  },
+  {
+    "id": "carlos-hoyos",
+    "name": "Carlos",
+    "surname": "Hoyos",
+    "profilePic": "person1.jpg",
+    "age": 26
+  },
+  {
+    "id": "pablo-bengolea",
+    "name": "Pablo",
+    "surname": "Bengolea",
+    "profilePic": "person2.webp",
+    "age": 25
+  },
+  {
+    "id": "laura-pastor",
+    "name": "Laura",
+    "surname": "Pastor",
+    "profilePic": "person3.jpg",
+    "age": 24
+  },
+  {
+    "id": "claudia-campos",
+    "name": "Claudia",
+    "surname": "Campos",
+    "profilePic": "person4.jpg",
+    "age": 25
+  },
+  {
+    "id": "agustin-romero",
+    "name": "Agustín",
+    "surname": "Romero",
+    "profilePic": "person82.jpg",
+    "age": 26
+  }
+]

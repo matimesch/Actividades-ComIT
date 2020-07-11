@@ -1,0 +1,45 @@
+body{
+    min-height: 100%;
+    background-color: #00aeba;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+form{
+    width: 95%;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(211, 211, 211, 0.795);
+    border-radius: 7px;
+    margin:auto;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+input{
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+#submit{
+    background: purple;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#submit:hover{
+    opacity: 0.9;
+}

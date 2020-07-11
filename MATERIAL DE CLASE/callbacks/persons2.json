@@ -1,0 +1,16 @@
+[
+  {
+    "id": "andres-hoyos",
+    "name": "Andrés",
+    "surname": "Hoyos",
+    "profilePic": "person1.jpg",
+    "age": 26
+  },
+  {
+    "id": "joel-bengolea",
+    "name": "Joel",
+    "surname": "Bengolea",
+    "profilePic": "person2.webp",
+    "age": 25
+  }
+]

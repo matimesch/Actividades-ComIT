@@ -1,0 +1,53 @@
+table, th, td{
+    padding: 4px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+th:hover{
+    color: red ;
+}
+
+th{
+    background-color:black;
+    color: white;
+}
+
+table tbody tr td:first-child{
+font-weight: bold;
+color: black;
+}
+
+a{
+    color:blue;
+}
+
+h1{
+    color: violet;
+    border: 4px solid purple;
+    text-align: center;
+    display: inline-table;
+}
+
+img{
+    width: 100px; 
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+.tapa{
+    width: 10%;
+}
+
+.bottom{
+    text-align: center;
+    position: fixed;
+}

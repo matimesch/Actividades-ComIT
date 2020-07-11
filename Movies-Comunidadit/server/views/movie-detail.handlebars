@@ -1,0 +1,15 @@
+{{#if movies}}
+
+
+<div class= "movies">
+    <img width="200px" src="/img/{{movies.cover}}" alt="">
+    <h2>Movie: {{movies.title}} ({{movies.year}})</h2>
+    <h4>Directed by : {{movies.director}}</h4>
+    <h4>Top cast: {{movies.topCast}}</h5>
+    <h3>Más sobre esta película <a href="{{movies.IMDB}}" target="_blank" rel="noopener noreferrer">acá</a></h6>
+
+</div>
+
+{{else}}
+<h2>movies data unaccessible.</h2>
+{{/if}}

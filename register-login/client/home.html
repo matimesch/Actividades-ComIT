@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+</head>
+
+<body>
+  <h1>HOLA</h1>
+  <input type="text" id="search">
+  <div id="container"></div>
+
+
+  <script>
+    const search = document.getElementById("search");
+    const container = document.getElementById("container");
+
+    function requestPhrases(phrases) {
+      const ajaxrequest = new XMLHttpRequest();
+
+      ajaxrequest.addEventListener("load", function () {
+        if (this.status == 200) {
+          const resultData = JSON.parse(this.responseText);
+          // console.log(resultData);
+          list(resultData);
+        };
+      });
+
+      ajaxrequest.open("GET", `/phrases?phrases=${phrases}`);
+      ajaxrequest.send();
+    }
+
+    search.addEventListener("keyup", function (event) {
+      if (search.value.length > 0) {
+        requestPhrases(search.value);
+
+      }
+    });
+
+    function list(phrases) {
+      container.innerHTML = "";
+      const newUl = document.createElement("ul");
+
+      for (let i = 0; i < phrases.length; i++) {
+        const phrase = phrases[i];
+        const newLi = document.createElement("li");
+        const split = phrase.split(search.value);
+        newLi.innerHTML = `${split.join(`<strong>${search.value}</strong>`)}`;
+        newUl.appendChild(newLi);
+
+        newLi.addEventListener("click", function () {
+          container.setAttribute("hidden", "true");
+          search.value = this.innerText;
+        })
+      };
+
+
+
+    container.appendChild(newUl);
+
+
+    }
+
+  </script>
+</body>
+
+</html>
